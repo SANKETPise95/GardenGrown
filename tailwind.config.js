@@ -5,5 +5,9 @@ export default withMT({
   theme: {
     extend: {},
   },
+  fontFamily : {
+    
+
+  },
   plugins: [],
 });
