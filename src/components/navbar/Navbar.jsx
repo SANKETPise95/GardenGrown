@@ -21,7 +21,7 @@ const Navbar = () => {
 
     // navList Data
     const navList = (
-        <ul className="flex space-x-3 text-white font-medium text-md px-5 ">
+        <ul className="flex space-x-3 text-white font-medium text-md px-5">
             {/* Home */}
             <li>
                 <Link to={'/'}>Home</Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <nav className="bg-teal-400 sticky top-0">
+        <nav className="bg-green-500 sticky top-0 rounded-" >
             {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
                 {/* left  */}
