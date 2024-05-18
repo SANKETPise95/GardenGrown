@@ -14,22 +14,23 @@ const categoryList = [
         name: 'Vegetables'
     },
     {
-        name: 'jacket'
+        name: 'Dairy Farm'
     },
     {
-        name: 'mobile'
+        name: 'Dry Fruit'
+    },
+
+    {
+        name: 'Flowers'
     },
     {
-        name: 'laptop'
+        name: 'AamMahotsav'
     },
     {
-        name: 'shoes'
+        name: 'Fresh Atta'
     },
     {
-        name: 'home'
-    },
-    {
-        name: 'books'
+        name: 'Summer Special'
     }
 ]
 
