@@ -66,13 +66,20 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <nav className="bg-white rounded-" >
+        <nav className="bg-white sticky top-0 rounded-" >
             {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
+           <div className="lg:flex lg:justify-between">
+            <div>
+            <img src="https://media.tenor.com/Uqh0m2YWLQcAAAAi/ks-kpluss.gif" class="h-8" alt="GardenGrown Logo" />
+            </div>
+            <div>
+                     <h2 className=" text-green-600 text-3xl">GardenGrown</h2>
+                     </div>
+                     </div>
                 {/* left  */}
                 <div className="left py-3 lg:py-0">
                     <Link to={'/'}>
-                   <img src="https://media.tenor.com/k-wL_qZAELgAAAAi/test.gif" class="h-8" alt="Flowbite Logo" />  <h2 className=" font-bold text-green-600 text-2xl text-center">GardenGrown</h2>
 
                     </Link>
                 </div>
