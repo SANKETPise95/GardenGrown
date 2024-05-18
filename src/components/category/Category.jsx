@@ -28,11 +28,11 @@ const category = [
     },
     {
         image: 'https://bachatkart.in/image/cache/catalog/product/breakfast/chakki%20fresh%20aata-700x700.jpg',
-        name: 'Fresh atta'
+        name: 'Fresh Atta'
     },
     {
         image: 'https://cdn-icons-png.flaticon.com/256/11946/11946316.png',
-        name: 'Summer special'
+        name: 'Summer Special'
     }
 ]
 

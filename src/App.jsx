@@ -13,12 +13,14 @@ import Signup from "./pages/registration/Signup";
 import Login from "./pages/registration/Login";
 import UserDashboard from "./pages/user/UserDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
+import FarmerDashboard from "./pages/Farmer/FarmerDashboard";
 import AddProductPage from "./pages/admin/AddProductPage";
 import UpdateProductPage from "./pages/admin/UpdateProductPage";
 import MyState from "./context/myState";
 import { Toaster } from "react-hot-toast";
 import { ProtectedRouteForUser } from "./protectedRoute/ProtectedRouteForUser";
 import { ProtectedRouteForAdmin } from "./protectedRoute/ProtectedRouteForAdmin";
+import { ProtectedRouteForFarmer }  from "./protectedRoute/ProtectedRouteForFarmer"
 import CategoryPage from "./pages/category/CategoryPage";
 
 const App = () => {
@@ -55,6 +57,12 @@ const App = () => {
               <UpdateProductPage />
             </ProtectedRouteForAdmin>
           } />
+
+          <Route path="/farmer-dashboard" element={
+            <ProtectedRouteForFarmer>
+              <FarmerDashboard/>
+            </ProtectedRouteForFarmer>
+          }/>
         </Routes>
         <Toaster />
       </Router>

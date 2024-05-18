@@ -51,11 +51,18 @@ const Login = () => {
                     })
                     toast.success("Login Successfully");
                     setLoading(false);
-                    if(user.role === "user") {
-                        navigate('/user-dashboard');
-                    }else{
-                        navigate('/admin-dashboard');
+                    switch (user.role) {
+                        case 'user':
+                            navigate('/user-dashboard');
+                            break;
+                        case 'admin':
+                            navigate('/admin-dashboard');
+                            break;
+                        case 'farmer':
+                            navigate('/Farmer-dashboard');
+                            break;
                     }
+                    
                 });
                 return () => data;
             } catch (error) {
