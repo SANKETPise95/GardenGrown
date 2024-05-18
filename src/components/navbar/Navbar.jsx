@@ -21,7 +21,7 @@ const Navbar = () => {
 
     // navList Data
     const navList = (
-        <ul className="flex space-x-3 text-white font-medium text-md px-5">
+        <ul className="flex space-x-3 text-green-600 font-medium text-md px-5">
             {/* Home */}
             <li>
                 <Link to={'/'}>Home</Link>
@@ -66,13 +66,14 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <nav className="bg-green-600 sticky top-0 rounded-" >
+        <nav className="bg-white rounded-" >
             {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
                 {/* left  */}
                 <div className="left py-3 lg:py-0">
                     <Link to={'/'}>
-                        <h2 className=" font-bold text-white text-2xl text-center">GardenGrown</h2>
+                   <img src="https://media.tenor.com/k-wL_qZAELgAAAAi/test.gif" class="h-8" alt="Flowbite Logo" />  <h2 className=" font-bold text-green-600 text-2xl text-center">GardenGrown</h2>
+
                     </Link>
                 </div>
 
