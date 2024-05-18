@@ -17,6 +17,10 @@ const categoryList = [
         name: 'Dairy Farm'
     },
     {
+        name: 'Dry Fruit'
+    },
+
+    {
         name: 'Flowers'
     },
     {
