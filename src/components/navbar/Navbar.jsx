@@ -49,7 +49,7 @@ const Navbar = () => {
 
             {/* Admin */}
             {user?.role === "admin" && <li>
-                <Link to={'/admin-dashboard'}>Admin</Link>
+                <Link to={'/admin-dashboard'} >Admin</Link>
             </li>}
 
             {/* logout */}
@@ -66,13 +66,13 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <nav className="bg-green-600 sticky top-0 rounded-" >
+        <nav className="bg-green-500 sticky top-0 rounded-sm" >
             {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
                 {/* left  */}
                 <div className="left py-3 lg:py-0">
                     <Link to={'/'}>
-                        <h2 className=" font-bold text-white text-2xl text-center">GardenGrown</h2>
+                        <h2 className=" font-bold text-white text-3xl text-center">GardenGrown</h2>
                     </Link>
                 </div>
 
