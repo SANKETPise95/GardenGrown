@@ -1,0 +1,9 @@
+/* src/fonts.css */
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Users/ferinpatel/Desktop/garden/GardenGrown/src/Marchiel.ttf') format('ttf'),
+         url('/Users/ferinpatel/Desktop/garden/GardenGrown/src/Marchiel.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

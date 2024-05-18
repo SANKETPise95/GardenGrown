@@ -6,6 +6,10 @@ export default withMT({
     extend: {},
   },
   fontFamily : {
+
+    sans: ['Graphik', 'sans-serif'],
+    serif: ['Merriweather', 'serif'],
+    Marchiel : ['Marchiel','serif']
     
 
   },
