@@ -3,6 +3,8 @@ import SearchBar from "../searchBar/SearchBar";
 import { useSelector } from "react-redux";
 
 
+
+
 const Navbar = () => {
     // get user from localStorage 
     const user = JSON.parse(localStorage.getItem('users'));
@@ -23,50 +25,66 @@ const Navbar = () => {
     const navList = (
         <ul className="flex space-x-3 text-green-600 font-medium text-md px-5">
             {/* Home */}
+            <button className="p-1 border-solid border-4 border-green-300 rounded-full py-2 px-3 bg-green-300">
             <li>
-                <Link to={'/'}>Home</Link>
+                <Link to={'/'} className="font-new1 text-xl text-black">Home</Link>
             </li>
+            </button>
 
             {/* All Product */}
+            <button className="p-1 border-solid border-4 border-green-300 bg-green-300 rounded-full py-2 px-4 ">
             <li>
-                <Link to={'/allproduct'}>Products</Link>
+                <Link to={'/allproduct'} className="font-new1 text-xl text-black">Products</Link>
             </li>
+            </button>
 
+            
             {/* Signup */}
             {!user ? <li>
-                <Link to={'/signup'}>Signup</Link>
+                <button className="p-1 border-solid border-4 border-green-300 bg-green-300 rounded-full py-2 px-4">
+                <Link to={'/signup'} className="font-figtree text-black">Signup</Link>
+            </button>
             </li> : ""}
 
+            
             {/* Signup */}
             {!user ? <li>
-                <Link to={'/login'}>Login</Link>
+                <button className="p-1 border-solid border-4 border-green-300 bg-green-300 rounded-full py-2 px-4">
+                <Link to={'/login'} className="font-new1 text-xl text-black">Login</Link>
+                </button>
             </li> : ""}
 
             {/* User */}
             {user?.role === "user" && <li>
-                <Link to={'/user-dashboard'}>User</Link>
+                <button className="p-1 border-solid border-4 border-green-300 bg-green-300 rounded-full py-2 px-4">
+                <Link to={'/user-dashboard'} className="font-new1 text-xl text-black">User</Link>
+                </button>
             </li>}
 
             {/* Admin */}
             {user?.role === "admin" && <li>
-                <Link to={'/admin-dashboard'}>Admin</Link>
+            <button className="p-1 border-solid border-4 border-green-300 bg-green-300 rounded-full py-2 px-4">
+                <Link to={'/admin-dashboard'} className="font-new1 text-xl text-black">Admin</Link>
+                </button> 
             </li>}
 
             {/* logout */}
-            {user && <li className=" cursor-pointer" onClick={logout}>
+            {user && <button className="p-1 border-solid border-4 border-green-300 bg-green-300 rounded-full py-2 px-4 font-new1 text-xl text-black" onClick={logout}>
                 logout
-            </li>}
+            </button>}
 
             {/* Cart */}
             <li>
-                <Link to={'/cart'}>
+            <button className="p-1 border-solid border-4 border-green-300 bg-green-300 rounded-full py-2 px-4">
+                <Link to={'/cart'} className="font-new1 text-xl text-black">
                     Cart({cartItems.length})
                 </Link>
+            </button>
             </li>
         </ul>
     )
     return (
-        <nav className="bg-white sticky top-0 rounded-" >
+        <nav className=" bg-primary sticky top-0 rounded-br-2xl rounded-bl-2xl" >
             {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
            <div className="lg:flex lg:justify-between">
