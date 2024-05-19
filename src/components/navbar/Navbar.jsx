@@ -74,7 +74,7 @@ const Navbar = () => {
             <img src="https://i.pinimg.com/originals/e8/88/d4/e888d4feff8fd5ff63a965471a94b874.gif" class="h-11" alt="GardenGrown Logo" />
             </div>
             <div>
-                     <h2 className=" text-green-600 text-3xl">GardenGrown</h2>
+                     <h2 className=" text-green-600 font-bold text-3xl">GardenGrown</h2>
                      </div>
                      </div>
                 {/* left  */}
