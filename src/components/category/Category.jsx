@@ -3,23 +3,23 @@ import { useNavigate } from "react-router";
 // category 
 const category = [
     {
-        image: 'https://img.freepik.com/premium-photo/fruits-fruit-basket-white-background_987687-45.jpg',
+        image: 'https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductGroupImage/20221102130437Untitled%20design%20(25)-min.png',
         name: 'Fruits'
     },
     {
-        image: 'https://media.istockphoto.com/id/1127420706/photo/fresh-vegetables-in-basket-on-white-isolated-background-top-view.jpg?s=612x612&w=0&k=20&c=U-9e1GUykrLoDumkoXHbfUV-3cBss_9CTUdQy38CTgk=',
+        image: 'https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductGroupImage/20221102125708Untitled%20design%20(20)-min.png',
         name: 'Vegetables'
     },
     {
-        image: 'https://img.freepik.com/premium-photo/different-fresh-dairy-products-isolated-white-background_185193-29492.jpg',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQeeO7xtTm7e5bteiIa5OQeetg-oNGh0b-6g&s',
         name: 'Dairy Farm'
     },
     {
-        image: 'https://cdn.shopaccino.com/adfs/products/mix-dry-fruits-whole-974738l-removebg-preview-106509_m.png?v=512',
+        image: 'https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductGroupImage/20221102125834Untitled%20design%20(21)-min.png',
         name: 'Dry fruits'
     },
     {
-        image: 'https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/191380lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&auto=webp',
+        image: 'https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductGroupImage/20221102125535Untitled%20design%20(19)-min.png',
         name: 'Flowers'
     },
     {
@@ -31,7 +31,7 @@ const category = [
         name: 'Fresh Atta'
     },
     {
-        image: 'https://cdn-icons-png.flaticon.com/256/11946/11946316.png',
+        image: 'https://diz7l2x0sn587.cloudfront.net/kisankonnect/Images/ProductGroupImage/20240319183041Summer-Special-Mnemonic-01.jpg',
         name: 'Summer Special'
     }
 ]

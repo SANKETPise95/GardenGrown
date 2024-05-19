@@ -89,10 +89,10 @@ const Navbar = () => {
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
            <div className="lg:flex lg:justify-between">
             <div>
-            <img src="https://media.tenor.com/Uqh0m2YWLQcAAAAi/ks-kpluss.gif" class="h-8" alt="GardenGrown Logo" />
+            <img src="https://i.pinimg.com/originals/e8/88/d4/e888d4feff8fd5ff63a965471a94b874.gif" class="h-11" alt="GardenGrown Logo" />
             </div>
             <div>
-                     <h2 className=" text-green-600 text-3xl">GardenGrown</h2>
+                     <h2 className=" text-green-600 font-bold text-3xl">GardenGrown</h2>
                      </div>
                      </div>
                 {/* left  */}
