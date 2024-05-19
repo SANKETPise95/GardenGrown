@@ -11,7 +11,7 @@ const category = [
         name: 'Vegetables'
     },
     {
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQeeO7xtTm7e5bteiIa5OQeetg-oNGh0b-6g&s',
+        image: 'https://pngbuy.com/wp-content/uploads/2023/04/white-cow-png.png',
         name: 'Dairy Farm'
     },
     {
@@ -51,7 +51,7 @@ const Category = () => {
                             return (
                                 <div key={index} className="px-3 lg:px-10">
                                     {/* Image  */}
-                                    <div onClick={() => navigate(`/category/${item.name}`)} className=" w-16 h-16 lg:w-24 lg:h-24 max-w-xs rounded-full  bg-pink-500 transition-all hover:bg-pink-400 cursor-pointer mb-1 " >
+                                    <div onClick={() => navigate(`/category/${item.name}`)} className=" w-16 h-16 lg:w-24 lg:h-24 max-w-xs rounded-full  bg-white transition-all hover:bg-white cursor-pointer mb-1 " >
                                         <div className="flex justify-center mb-12">
                                             {/* Image tag  */}
                                             <img src={item.image} alt="img" />
